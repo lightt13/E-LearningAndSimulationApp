@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Module3">
+
+    <TextView
+        android:id="@+id/m1Modules2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="4dp"
+        android:text="MODULES"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/m2Modules2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="sans-serif-black"
+        android:text="PROFILE"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/m1Modules2" />
+
+    <TextView
+        android:id="@+id/m3Modules2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="sans-serif-black"
+        android:text="EXAMS"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/m2Modules2" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/m1Modules2"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageButton
+            android:id="@+id/m1Btn18"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/button_onoff_indicator_off" />
+
+        <ImageButton
+            android:id="@+id/m1Btn19"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/button_onoff_indicator_off" />
+
+        <ImageButton
+            android:id="@+id/m1Btn20"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/button_onoff_indicator_off" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/moduleOneHeader3"
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:inputType="text"
+        android:text="                               AIR LEARN: Module 3"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="82dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logoair" />
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="545dp"
+        android:layout_marginTop="112dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/TextView400"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RECIPROCATING ENGINE FUEL SYSTEM"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/TextView401"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ENGINE FUEL SYSTEM – Provides the engine with an uninterrupted flow of clean and metered fuel."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView402"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Most aircraft reciprocating engines meter fuel by carburetor or fuel injection."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView403"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="There are two fuel system types:"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView404"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. GRAVITY FEED SYSTEM – Used in most high wing single engine aircraft, consisting of two wing tanks, fuel lines, selector valve, fuel strainer, primer, and the carburetor."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView405"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. PRESSURE FEED SYSTEM – Uses a fuel pump to supply fuel to the metering device, commonly used on low wing aircraft."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView406"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CARBURETOR SYSTEM"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView407"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CARBURETOR – Meters the right amount of fuel/air mixture needed for combustion."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView408"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FUEL LINES – Flexible or rigid fire resistant hose which directs fuel from the tank to the selector valve to the strainer to the carburetor."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView409"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FUEL STRAINER OR FILTER – Consists of a bowl and fine mesh screen that prevent contaminants and drain water from the system."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView410"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FUEL TANK – Provides storage for fuel."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView411"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SELECTOR VALVE – Flow control valve that directs fuel flow and shuts off the system."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView412"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PRIMER – A hand operated pump used to spray fuel in the induction system for starting the engine."
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/TextView413"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ENGINE CONTROLS"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView414"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. THROTTLE (BLACK KNOB) – Regulates the power or thrust the pilot wants the engine to develop."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView415"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. MIXTURE CONTROL (RED KNOB) – Allows the pilot to vary the fuel and air mixture ratio while the engine is running."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView416"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FOR FUEL INJECTION SYSTEM"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView417"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ENGINE DRIVEN FUEL PUMP – Delivers a supply of fuel at the necessary pressure for engine operation in a pressure feed fuel system."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView418"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SERVO FUEL INJECTION UNIT – Meters the fuel in pressure injection system and delivers it outside the intake valve."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView419"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FUEL INJECTION MANIFOLD – Takes the fuel from the fuel injection unit and distributes it to fuel nozzles."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView420"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FUEL NOZZLES – The nozzles where the fuel is discharged."
+                android:layout_marginBottom="4dp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

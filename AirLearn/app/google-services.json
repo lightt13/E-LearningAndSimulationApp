@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "538499031881",
+    "project_id": "airlearn-ca0b5",
+    "storage_bucket": "airlearn-ca0b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538499031881:android:e519598809bbd87c10b098",
+        "android_client_info": {
+          "package_name": "com.example.airlearn"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYPnDDA4m1k-O90BUUdcBZXE2FiSoB_6c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538499031881:android:21620b29b4cb7e1010b098",
+        "android_client_info": {
+          "package_name": "com.example.login"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYPnDDA4m1k-O90BUUdcBZXE2FiSoB_6c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

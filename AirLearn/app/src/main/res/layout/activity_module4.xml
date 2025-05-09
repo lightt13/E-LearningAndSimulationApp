@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Module4">
+
+    <TextView
+        android:id="@+id/m1Modules3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="4dp"
+        android:text="MODULES"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/m2Modules3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="sans-serif-black"
+        android:text="PROFILE"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/m1Modules3" />
+
+    <TextView
+        android:id="@+id/m3Modules3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="sans-serif-black"
+        android:text="EXAMS"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/m2Modules3" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/m1Modules3"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageButton
+            android:id="@+id/m1Btn21"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/button_onoff_indicator_off" />
+
+        <ImageButton
+            android:id="@+id/m1Btn22"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/button_onoff_indicator_off" />
+
+        <ImageButton
+            android:id="@+id/m1Btn23"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/button_onoff_indicator_off" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/moduleOneHeader4"
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:inputType="text"
+        android:text="                               AIR LEARN: Module 4"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="82dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logoair" />
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="545dp"
+        android:layout_marginTop="112dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/TextView500"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RECIPROCATING ENGINE IGNITION SYSTEM"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+            <TextView
+                android:id="@+id/TextView501"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IGNITION SYSTEM – The purpose of the ignition system is to supply properly timed spark which ignites the fuel/air mixture in each cylinder."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView502"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The parts of an aircraft ignition system are:"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView503"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. MAGNETO – The source of high voltage electrical energy needed to ignite the fuel/air mixture. Most aircraft ignition systems have two magnetos, and each cylinder has TWO SPARK PLUGS."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView504"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Each magneto powers one spark plug in each cylinder. The engine can operate with only one system working, but with less power. The ignition system is independent of other airplane systems and is self-sustaining."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView505"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. SPARK PLUG – A device that ignites the fuel/air mixture in the cylinder."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView506"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. IGNITION HARNESS – The complete set of cables, terminals, and connectors that carry the high voltage from the magneto to the spark plug."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView507"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MAGNETO HOUSING – Made of aluminum alloy where the rotating magnet, coil, and other mechanical parts of the magneto are encased."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView508"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ROTATING MAGNET – Induces voltage to the ignition coil."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView509"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IGNITION COIL – Made up of several turns of wire wound around a core that steps up the voltage."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView510"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PRIMARY WINDING – Consists of 180 to 200 turns of copper wire."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView511"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SECONDARY WINDING – Made up of 13,000 turns capable of producing 20,000 volts required to produce a spark."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView512"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BREAKER POINT – Electrical contact in the primary circuit opened by a cam turned by the engine."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView513"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The breaker point is timed to open. When the breaker point is closed, the current flows to the primary winding."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView514"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DISTRIBUTOR FINGER (ROTOR) – Picks up the high voltage from the ignition coil and directs it to the terminals of the distributor block."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView515"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DISTRIBUTOR BLOCK – Block where the ignition harness leads are attached."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView516"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Magneto to engine timing is set by positioning the number 1 piston in cylinder number 1 in compression stroke near the top dead center."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView517"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Then adjust the engine timing according to engine specifications according to the engine reference marks."
+                android:layout_marginBottom="8dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

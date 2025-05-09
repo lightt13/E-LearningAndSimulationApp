@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Module5">
+
+    <TextView
+        android:id="@+id/m1Modules5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="4dp"
+        android:text="MODULES"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/m2Modules4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="sans-serif-black"
+        android:text="PROFILE"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/m1Modules5" />
+
+    <TextView
+        android:id="@+id/m3Modules4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="sans-serif-black"
+        android:text="EXAMS"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/m2Modules4" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/m1Modules5"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageButton
+            android:id="@+id/m1Btn24"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/button_onoff_indicator_off" />
+
+        <ImageButton
+            android:id="@+id/m1Btn25"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/button_onoff_indicator_off" />
+
+        <ImageButton
+            android:id="@+id/m1Btn26"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/button_onoff_indicator_off" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/moduleOneHeader5"
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:inputType="text"
+        android:text="                               AIR LEARN: Module 4"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="82dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logoair" />
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="545dp"
+        android:layout_marginTop="112dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <TextView
+                android:id="@+id/TextView700"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RECIPROCATING ENGINE INDUCTION SYSTEM"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/TextView701"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ENGINE INDUCTION SYSTEM – The purpose of the induction system is to provide sufficient quantity of air to support combustion. Reciprocating engine induction systems are classified as normally aspirated, supercharged, and turbocharged."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView702"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NORMALLY ASPIRATED ENGINES – Consist of four components:"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView703"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="a. AIR INTAKE – Also called the air scoop or air box, it collects air from outside the aircraft."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView704"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="b. AIR FILTER – Prevents dust, sand, abrasive materials, and other contaminants from entering the engine."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView705"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="c. FUEL METERING SYSTEM – Fuel delivery in normally aspirated engines may be via carburetor or fuel injection system."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView706"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="d. INTAKE MANIFOLD – Ducting from the fuel metering device to the cylinders."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView707"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Maintenance: Remove, clean, or replace the induction air filter. Check for security and damage in the air inlet duct."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView708"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Check intake manifold seals for leaks and clamps for tightness."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView709"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Check carburetor heat air valve to ensure it does not allow unfiltered air to enter the engine."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView710"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SUPERCHARGED INDUCTION SYSTEM – Used to supply more oxygen to the engine at high altitudes."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView711"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SUPERCHARGER – An engine-driven air pump that increases air pressure into the cylinder."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView712"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TURBOCHARGER – A supercharger driven by exhaust gases, minimizing engine power usage."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView713"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AIRCRAFT RECIPROCATING ENGINE CRANKSHAFT"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/TextView714"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CRANKSHAFT – The central component that transforms reciprocating motion of the piston into rotary motion to turn the propeller."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView715"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• PARTS OF THE CRANKSHAFT:"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView716"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. MAIN JOURNAL – Rotates in the crankcase bearings."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView717"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. CRANKPIN – Attaches to the connecting rod."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView718"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. CRANK CHEEK – Connects the crankpin to the main journal."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView719"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• COUNTERWEIGHT AND DYNAMIC DAMPENERS – Reduce vibrations caused by the connecting rods and pistons."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView720"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• The crankshaft is checked for static and dynamic balance during maintenance."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView721"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CONNECTING ROD – Transmits forces between the piston and the crankshaft."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView722"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• TYPES OF CONNECTING RODS:"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView723"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. PLAIN CONNECTING RODS – Used in inline and opposed engines."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView724"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. FORK AND BLADE CONNECTING RODS – Used by V-type engines."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView725"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. MASTER AND ARTICULATED CONNECTING RODS – Used in radial engines."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView726"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• BEARINGS – Support and reduce friction between moving parts."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView727"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• CHARACTERISTICS OF A GOOD BEARING:"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView728"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Made of strong material to withstand pressure and permit movement with minimum wear."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView729"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Parts held in close tolerances for quiet and efficient operation."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView730"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• TYPES OF BEARINGS:"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView731"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. PLAIN BEARINGS – Used in main journals and connecting rods."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView732"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. ROLLER BEARINGS – Anti-friction bearings that eliminate friction."
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/TextView733"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. BALL BEARINGS – Provide the least amount of rolling friction."
+                android:layout_marginBottom="4dp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

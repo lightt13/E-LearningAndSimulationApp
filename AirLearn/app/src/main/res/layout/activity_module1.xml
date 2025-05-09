@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/moduleTestHeader"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Module1">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/M1Modules"
+        app:layout_constraintStart_toStartOf="parent">>
+
+        <ImageButton
+            android:id="@+id/m1Btn1"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/button_onoff_indicator_off" />
+
+        <ImageButton
+            android:id="@+id/m1Btn2"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/button_onoff_indicator_off" />
+
+        <ImageButton
+            android:id="@+id/m1Btn3"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/button_onoff_indicator_off" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/M1Modules"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="4dp"
+        android:text="MODULES"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/M2Modules"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="sans-serif-black"
+        android:text="PROFILE"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/M1Modules" />
+
+    <TextView
+        android:id="@+id/M3Modules"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="sans-serif-black"
+        android:text="EXAMS"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/M2Modules" />
+
+    <EditText
+        android:id="@+id/moduleOneHeader"
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:inputType="text"
+        android:text="                               AIR LEARN: Module 1"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="82dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logoair" />
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="545dp"
+        android:layout_marginTop="112dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/TextView100"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AIRCRAFT ENGINE REQUIREMENTS"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <WebView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:id="@+id/videoPlayer"
+                />
+
+            <TextView
+                android:id="@+id/TextView102"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• WEIGHT – The weight of an engine must be related to its power output or its weight/power ratio." />
+
+            <TextView
+                android:id="@+id/TextView104"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• RELIABILITY – Before the engine is granted an Approved Type Certificate, it must be tested at maximum power and hours, and it must show no evidence of abnormal wear. It should not fail if properly maintained, inspected, and operated by skilled personnel. It should have long life and parts should be easily replaced after a reasonable service." />
+
+            <TextView
+                android:id="@+id/TextView106"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• COMPACTNESS – Proper streamlining and balance of the aircraft." />
+
+            <TextView
+                android:id="@+id/TextView108"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• ECONOMY OF OPERATION – Costs less in operation, maintenance, fuel, and oil consumption." />
+
+            <TextView
+                android:id="@+id/TextView210"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• FLEXIBILITY – The ability of the engine to run smoothly and perform in the desired manner at all speeds, atmospheric conditions, and altitudes." />
+
+            <TextView
+                android:id="@+id/TextView212"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• BALANCE – Freedom from vibration is also a principal factor. Excessive engine vibrations may reduce or cut the life of the airplane and its parts. Excessive vibration is also fatiguing the pilot, crew, and passengers, reducing the desirability of flight." />
+
+            <TextView
+                android:id="@+id/TextView214"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MAJOR PARTS OF A RECIPROCATING ENGINE"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"/>
+
+            <TextView
+                android:id="@+id/TextView216"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CRANKCASE – The housing which encloses the crankshaft, camshaft, and many accessory drive gears of a reciprocating engine. The cylinders mount on the crankcase, and the engine is attached to the airframe by the crankcase." />
+
+            <ImageView
+                android:id="@+id/imageView101"
+                android:layout_width="200dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="24dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/img" />
+
+            <TextView
+                android:id="@+id/TextView217"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="•CRANKSHAFT – The central component of a reciprocating engine that transforms the reciprocating motion of the piston and connecting rods into rotary motion to turn the propeller."/>
+
+
+            <ImageView
+                android:id="@+id/imageView102"
+                android:layout_width="200dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="24dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/img_1" />
+
+            <TextView
+                android:id="@+id/TextView210"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• CONNECTING ROD – The link that transmits forces between the piston and the crankshaft."
+                android:layout_marginBottom="4dp" />
+            <ImageView
+                android:id="@+id/imageView202"
+                android:layout_width="200dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="24dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/img_2" />
+
+
+            <TextView
+                android:id="@+id/TextView111"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• PISTON – A cylindrical plunger that moves up and down or back and forth to compress the fuel/air mixture and transmit the force of expanding gases to the crankshaft."
+                android:layout_marginBottom="4dp" />
+
+            <ImageView
+                android:id="@+id/imageView203"
+                android:layout_width="200dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="24dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/img_3" />
+
+            <TextView
+                android:id="@+id/TextView212"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• CYLINDERS – Components that serve as combustion chambers in a reciprocating engine."
+                android:layout_marginBottom="4dp" />
+
+            <ImageView
+                android:id="@+id/imageView205"
+                android:layout_width="200dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="24dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/img_5" />
+
+            <TextView
+                android:id="@+id/TextView113"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• INTAKE VALVE – The valve in the cylinder head through which the fuel-air mixture passes as it enters the combustion chamber."
+                android:layout_marginBottom="4dp" />
+
+            <ImageView
+                android:id="@+id/imageView206"
+                android:layout_width="200dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="24dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/img_6" />
+
+            <TextView
+                android:id="@+id/TextView214"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• EXHAUST VALVE – The valve in the cylinder head through which burned gases exit the cylinder."
+                android:layout_marginBottom="4dp" />
+
+            <ImageView
+                android:id="@+id/imageView207"
+                android:layout_width="200dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="24dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/img_7" />
+
+            <TextView
+                android:id="@+id/TextView115"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• CAMSHAFT – A gear-driven shaft that contains lobes to actuate the intake and exhaust valves. It is geared to the crankshaft."
+                android:layout_marginBottom="4dp" />
+
+            <ImageView
+                android:id="@+id/imageView208"
+                android:layout_width="200dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="24dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/img_8" />
+
+            <TextView
+                android:id="@+id/TextView226"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• TAPPETS (OR VALVE LIFTERS) – Transmit the lifting force of the cam lobes to the pushrods."
+                android:layout_marginBottom="4dp" />
+
+            <ImageView
+                android:id="@+id/imageView209"
+                android:layout_width="200dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="24dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/img_9" />
+
+            <TextView
+                android:id="@+id/TextView227"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• PUSHROD – A rod or tube situated between the valve lifter (or tappet) and the rocker arm, transmitting the motion of the valve lifter."
+                android:layout_marginBottom="4dp" />
+
+            <ImageView
+                android:id="@+id/imageView210"
+                android:layout_width="200dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="24dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/img_10" />
+
+            <TextView
+                android:id="@+id/TextView118"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• ROCKER ARMS – Pivoted arms mounted in the cylinder head that push the intake and exhaust valves off their seats."
+                android:layout_marginBottom="4dp" />
+            <ImageView
+                android:id="@+id/imageView211"
+                android:layout_width="200dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="24dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/img_11" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
